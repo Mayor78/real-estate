@@ -1,0 +1,66 @@
+.container-fluid img{
+    width: 80px;
+    height: 60px;
+}
+
+.container-fluid .name{
+    font-size: 29px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    
+}
+#navbarText ul li  :hover{
+    color: tomato;
+}
+.navbar-text .btn1{
+    background-color: tomato;
+    border-color: tomato;
+    color: white;
+    border-radius: 20px;
+}
+
+.containerOne{
+    margin-top: 60px;
+}
+.containerTwo{
+    margin-top: 10px;
+   
+}
+
+
+.text{
+    margin-top: 15px;
+    margin-left:20px;
+}
+.text h1{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.text:hover{
+    color: tomato;
+    cursor: pointer;
+}
+
+
+.footer{
+    margin-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
