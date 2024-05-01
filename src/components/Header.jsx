@@ -1,9 +1,12 @@
 import React from 'react'
 import { navbar  }from "../styles/navbar.css";
+import Mode from './Mode';
+
 const Header = () => {
   return (
     <div className='text'>
         <h1>Check Our Second Series</h1>
+      
     </div>
   )
 }

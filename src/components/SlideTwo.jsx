@@ -1,5 +1,5 @@
 import React from 'react'
-import{  navbar}  from "../styles/navbar.css";
+import '../styles/navbar.css'
 
 const SlideTwo = () => {
     const house1 ="https://img.freepik.com/premium-photo/big-american-house-generative-ai_170984-9624.jpg?w=826"

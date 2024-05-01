@@ -1,10 +1,12 @@
 import React from 'react'
 import { useTheme } from './Theme';
+import { navbar  }from "../styles/navbar.css";
+import { CiLight } from "react-icons/ci";
 
 const Mode = () => {
     const { theme, toggleTheme } = useTheme();
   return (
-    <div>
+    <div className='mode'>
       <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -12,7 +14,7 @@ const Mode = () => {
         <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Theme 1</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body text-primary">
         Change Back To Another Theme
       </div>
       <div class="modal-footer">
@@ -28,7 +30,7 @@ const Mode = () => {
         <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Theme 2</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body text-primary">
         Change Back To Another Theme
       </div>
       <div class="modal-footer">
@@ -37,7 +39,7 @@ const Mode = () => {
     </div>
   </div>
 </div>
-<button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">{theme}</button>
+<button class="btn btn-danger" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">{theme}<CiLight/> </button>
     </div>
   )
 }

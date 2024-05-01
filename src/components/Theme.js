@@ -1,6 +1,6 @@
 // ThemeContext.js
 import React, { createContext, useContext, useState } from 'react';
-import { CiLight } from "react-icons/ci";
+
 
 
 // Define your theme variables
@@ -21,7 +21,7 @@ export const useTheme = () => useContext(ThemeContext);
 
 // Theme provider component
 export const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('Light');
 
   const toggleTheme = () => {
     setTheme(prevTheme => (prevTheme === 'Light' ? 'Dark' : "Light"));
