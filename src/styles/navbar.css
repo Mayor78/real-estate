@@ -10,9 +10,9 @@
 
 
 
-/* navbar.css */
 
-/* .light-navbar {
+/* 
+.light-navbar {
     background-color: whitesmoke; 
     color: black; 
   }
@@ -55,10 +55,10 @@
     color: red;
     font-weight: bold;
 }
-/* .mode{
+.mode{
     z-index: 1;
     background-color: rgb(255, 255, 255);
-} */
+}
 #navbarText ul li  :hover{
     color: tomato;
     position: relative;
