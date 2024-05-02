@@ -29,11 +29,7 @@
     background: black;
     color: #ffffff;
   }
-/* .fot{
-    background: black;
-   
-    
-} */
+
 .container-fluid img{
     width: 80px;
     height: 60px;
@@ -92,12 +88,10 @@
     margin-top: 15px;
     margin-left:20px;
 }
-.text h1{
+.text {
     font-size: 40px;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
+  
 }
 .text:hover{
     color: tomato;

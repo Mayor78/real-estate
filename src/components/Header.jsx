@@ -5,7 +5,8 @@ import Mode from './Mode';
 const Header = () => {
   return (
     <div className='text'>
-        <h1>Check Our Second Series</h1>
+                 <h1>Check Our  <span>Second Series</span> </h1>
+       
       
     </div>
   )
